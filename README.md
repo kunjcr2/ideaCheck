@@ -1,5 +1,3 @@
-Say less — here's your full fire README-style writeup with your custom tech stack (React + TailwindCSS frontend, Python backend, MongoDB or SQL, hosted on Vercel & Render) 🔥
-
 ---
 
 # 💡 The Concept — *“IdeaForge”* (placeholder name)  
@@ -127,6 +125,3 @@ I got your back with:
 - Future marketing/branding too (🔥 domain ideas on request)
 
 ---
-
-Ready to ship this thing into orbit? 🛸  
-You want a logo or landing page copy next?
