@@ -1,5 +1,4 @@
 ---
-
 # 💡 The Concept — *“IdeaForge”* (placeholder name)  
 > *“Can’t find your next big idea? We’ll match you with it.”*
 
