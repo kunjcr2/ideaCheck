@@ -1,4 +1,3 @@
----
 # 💡 Updated Concept — *"IdeaCheck"* (working title)
 > *"Not sure if your startup idea is worth building? Let’s find out — instantly."*
 
