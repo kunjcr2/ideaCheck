@@ -4,3 +4,4 @@ requests
 pymongo
 python-dotenv
 langchain-openai
+flask_cors
