@@ -1,5 +1,4 @@
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
 
 import os
 from dotenv import load_dotenv
@@ -38,3 +37,11 @@ class LLM:
         '''
         response = self.llm.invoke(prompt)
         return response.content
+    
+    def get_llm(self):
+        '''
+        Get the LLM instance.
+        Returns:
+            ChatOpenAI: The LLM instance.
+        '''
+        return self.llm
