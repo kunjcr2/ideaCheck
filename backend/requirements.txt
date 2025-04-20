@@ -5,3 +5,4 @@ pymongo
 python-dotenv
 langchain-openai
 flask_cors
+googlesearch-python

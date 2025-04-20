@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from llm import LLM # LLM class from llm.py
+from agents import Agents
 
-llm = LLM()
+agent = Agents()
+
 app = Flask(__name__)
 CORS(app)
 
@@ -15,7 +16,7 @@ def chat():
     if not user_message:
         return jsonify({'error': 'No message provided'}), 400
 
-    response = llm.generate_response(user_message)
+    response = agent.run(user_message)
 
     if not response:
         return jsonify({'error': 'No response generated'}), 500

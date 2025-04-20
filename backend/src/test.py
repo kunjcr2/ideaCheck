@@ -1,5 +1,7 @@
-from agents import Agents
+import googlesearch
 
-agent = Agents()
+for i in googlesearch.search("Startup related to selling a hardware product that is cheaper version of CCTV", num_results=1):
+    link = i
+    break
 
-agent.run("Creating a startup idea for a new social media platform that connects people with similar interests and hobbies.")
+print(link)

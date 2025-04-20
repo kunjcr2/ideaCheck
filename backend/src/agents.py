@@ -13,13 +13,13 @@ class Agents:
     def __init__(self):
         self.tools = Tools()
         self.llm = LLM()
-
+        
         self.google_search_agent = initialize_agent(
             tools=[
                 Tool(
                     name="Google Search",
                     func=self.tools.google_search,
-                    description="Use this ONLY to search if a startup idea mentioned is already built or not.",
+                    description="Use this ONLY to search if a startup idea mentioned is already built or not, and if yes, ask if they want similar ideas and if not, ask if they would like to have a workflow or not. Do it for ideas and startup ideas ONLY.",
                 ),
                 Tool(
                     name="Other",
@@ -29,7 +29,6 @@ class Agents:
             ],
             llm=self.llm.get_llm(),
             agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-            verbose=True,
             max_iterations=3,
         )
     
