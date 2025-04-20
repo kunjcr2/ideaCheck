@@ -27,7 +27,7 @@ class LLM:
             api_key=api_key,
         )
 
-    def generate_response(self, prompt: str) -> str:
+    def generate(self, prompt: str) -> str:
         '''
         Generate a response from the LLM using the provided prompt.
         Args:

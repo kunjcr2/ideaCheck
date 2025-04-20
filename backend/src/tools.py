@@ -8,6 +8,5 @@ class Tools:
 
         return link
 
-
     def other(self, query):
-        return "Please include valid query to use this tool"
+        return "Tell them to pass valid query"

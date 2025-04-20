@@ -19,7 +19,12 @@ class Agents:
                 Tool(
                     name="Google Search",
                     func=self.tools.google_search,
-                    description="Use this ONLY to search if a startup idea mentioned is already built or not, and if yes, ask if they want similar ideas and if not, ask if they would like to have a workflow or not. Do it for ideas and startup ideas ONLY.",
+                    description="Use ONLY to check if a startup idea exists. For startup or project ideas ONLY.",
+                ),
+                Tool(
+                    name="Idea Generator",
+                    func=self.llm.generate,
+                    description="Use this to generate ONLY 1 startup idea. return idea ONLY in one sentence.",
                 ),
                 Tool(
                     name="Other",

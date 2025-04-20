@@ -26,7 +26,7 @@ def chat():
 # api route for getting the feedback on the chatbot if its working or not
 @app.route('/api/feedback', methods=['GET'])
 def feedback():
-    return jsonify({'feedback': 'This is a placeholder feedback.'}), 200
+    return jsonify({'content': 'API is working'}), 200
 
 if __name__ == '__main__':
     app.run(debug=True, port=5176)
