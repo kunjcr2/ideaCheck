@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #1e40af;
+}
+
+/* Add smooth transitions for theme changes */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Base styles */
+html {
+  @apply bg-gray-100 dark:bg-gray-900;
+}
+
+body {
+  @apply min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+}
+
+/* Ensure dark mode styles are applied to the root element */
+.dark {
+  color-scheme: dark;
+}
