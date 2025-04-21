@@ -13,7 +13,7 @@ const Sidebar = ({ isOpen }) => {
   ];
 
   return (
-    <div 
+    <div
       className={`
         fixed md:relative
         w-64 h-full bg-[#1A1B1E] text-gray-300 flex flex-col
@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen }) => {
         <div className="flex items-center space-x-2 overflow-hidden">
           <img src="/logo.svg" alt="Logo" className="w-8 h-8 flex-shrink-0" />
           <span className={`text-white font-semibold text-lg transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 md:hidden'}`}>
-            Successyne
+            IdeaCheck
           </span>
         </div>
       </div>
@@ -76,4 +76,4 @@ const Sidebar = ({ isOpen }) => {
   );
 };
 
-export default Sidebar; 
+export default Sidebar;
