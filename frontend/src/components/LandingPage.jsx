@@ -48,10 +48,10 @@ const LandingPage = () => {
                                 <button
                                     onClick={() => setActiveTab('validate')}
                                     className={`px-6 py-2 rounded-lg transition-colors ${activeTab === 'validate'
-                                            ? 'bg-blue-500 text-white'
-                                            : isDarkMode
-                                                ? 'bg-gray-800 text-gray-300 hover:bg-gray-700'
-                                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                        ? 'bg-blue-500 text-white'
+                                        : isDarkMode
+                                            ? 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                         }`}
                                 >
                                     Validate Idea
@@ -59,10 +59,10 @@ const LandingPage = () => {
                                 <button
                                     onClick={() => setActiveTab('generate')}
                                     className={`px-6 py-2 rounded-lg transition-colors ${activeTab === 'generate'
-                                            ? 'bg-blue-500 text-white'
-                                            : isDarkMode
-                                                ? 'bg-gray-800 text-gray-300 hover:bg-gray-700'
-                                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                        ? 'bg-blue-500 text-white'
+                                        : isDarkMode
+                                            ? 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                         }`}
                                 >
                                     Generate Ideas
@@ -76,8 +76,8 @@ const LandingPage = () => {
                                         <button
                                             onClick={() => navigate('/chat')}
                                             className={`w-full p-4 text-left rounded-lg mb-4 ${isDarkMode
-                                                    ? 'bg-gray-800 hover:bg-gray-700'
-                                                    : 'bg-gray-100 hover:bg-gray-200'
+                                                ? 'bg-gray-800 hover:bg-gray-700'
+                                                : 'bg-gray-100 hover:bg-gray-200'
                                                 } transition-colors`}
                                         >
                                             <span className="block font-semibold mb-2">🔍 Validate Your Idea</span>
@@ -91,8 +91,8 @@ const LandingPage = () => {
                                         <button
                                             onClick={() => navigate('/chat')}
                                             className={`w-full p-4 text-left rounded-lg mb-4 ${isDarkMode
-                                                    ? 'bg-gray-800 hover:bg-gray-700'
-                                                    : 'bg-gray-100 hover:bg-gray-200'
+                                                ? 'bg-gray-800 hover:bg-gray-700'
+                                                : 'bg-gray-100 hover:bg-gray-200'
                                                 } transition-colors`}
                                         >
                                             <span className="block font-semibold mb-2">💡 Generate Fresh Ideas</span>
