@@ -55,7 +55,7 @@ const ChatInterface = () => {
       setIsLoading(true);
 
       // Send to backend
-      const response = await axios.post('http://localhost:5176/api/chat', {
+      const response = await axios.post('http://localhost:5172/api/chat', {
         message: content.trim()
       });
 

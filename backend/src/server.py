@@ -20,7 +20,7 @@ def chat():
 
     if not response:
         return jsonify({'error': 'No response generated'}), 500
-    
+
     return jsonify({'content': response}), 200
 
 # api route for getting the feedback on the chatbot if its working or not
@@ -29,4 +29,4 @@ def feedback():
     return jsonify({'content': 'API is working'}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5176)
+    app.run(debug=True, port=5172)
